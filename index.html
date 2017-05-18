@@ -10,7 +10,7 @@
 	<link href="css/bootstrap.min.css" rel="stylesheet">
 	<!-- Font Awesomes -->
 	<link href="css/custom.css" rel="stylesheet">
-	<link rel="stylesheet" href="/home/albert/Github/Barb3Rouss3.github.io/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
   </head>
 <!-- Body (début) -->
   <body>
@@ -57,7 +57,7 @@
 		<!--  Blog -->
 		<li><a href="#">Blog</a></li>
 		<!--  Contact -->
-		<li><a href="#">Contact</a></li>
+		<li><a href="#contact" data-toggle="modal">Contact</a></li>
 	</ul>
 	</div>
 	</div>
@@ -70,7 +70,30 @@
 		<p><img src="img/matrixcat.jpg"class="img-rounded" width="300" height="300"></a></p>
 		<a href="#" class="btn btn-warning">Linux</a>
 		<a href="#" class="btn btn-success">Android</a>
-		</div>
+	 </div>
+     <!-- Grid -->
+     <div class="row">
+       <div class="col-md-4">
+        <a href="#" class="thumbnail">
+          <img src="img/fritz.jpg" alt="Fritz The Cat" class="img-rounded" width="300" height="300">
+        </a>
+        <h3> Hello World ! </h1>
+        <p> hello hello hello hello hello hello hello hello hello hello hello hello hello hello </p>
+        <a href="#" class="btn btn-danger">View </a>
+       </div>
+       <div class="col-md-4">
+        <h3> Hello World ! </h1>
+        <p> hello hello hello hello hello hello hello hello hello hello hello hello hello hello </p>
+        <a href="#" class="btn btn-danger">View </a>
+       </div><div class="col-md-4">
+        <h3> Hello World ! </h1>
+        <p> hello hello hello hello hello hello hello hello hello hello hello hello hello hello </p>
+        <a href="#" class="btn btn-danger">View </a>
+       </div>
+     </div>
+
+
+
 	</div>
 	<!-- Footer -->
 	<div class="navbar navbar-inverse navbar-fixed-bottom" role="navigation">
@@ -78,7 +101,7 @@
 		<div class="navbar-text pull-left">
 		<p>(Ↄ) 2017 Barb3Rouss3</p>
 		</div>
-		
+
 		<div class="navbar-text pull-left">
 		<i class="fa fa-linux fa-2x" aria-hidden="true"></i>
 		<i class="fa fa-firefox fa-2x" aria-hidden="true"></i>
@@ -93,6 +116,22 @@
 	</div>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <!-- Contact pop-up -->
+    <div class="modal fade" id="contact" role="dialog">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4>Contact</h4>
+          <div class="modal-body">
+            <p>email: barb3rouss3mt@gmail.com</p>
+          <div class="modal-footer">
+            <a class="btn btn-primary" data-dismiss="modal">Close</a>
+          </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
